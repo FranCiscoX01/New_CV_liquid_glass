@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Space Grotesk', sans-serif;
+    @apply bg-gray-50 text-black;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded-full hover:bg-gray-400 transition-colors;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-white/30 backdrop-blur-sm border border-white/30 shadow-xl;
+  }
+
+  .glass-card {
+    @apply bg-white/20 backdrop-blur-sm border border-white/30 shadow-lg transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-gray-900 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 hover:bg-gray-800 hover:scale-105;
+  }
+
+  .btn-primary:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .section-padding {
+    @apply px-6 sm:px-10 md:px-20 lg:px-32 xl:px-40 py-20 md:py-32;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white via-white/80 to-white/50;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+}
