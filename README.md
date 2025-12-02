@@ -1,4 +1,4 @@
-# Portfolio React - John Doe
+# Portfolio React - Francisco Javier
 
 Un portfolio moderno y responsivo construido con React, TypeScript y Tailwind CSS. Este proyecto unifica todas las secciones HTML originales en una aplicación React cohesiva con buenas prácticas de desarrollo frontend.
 
@@ -189,9 +189,9 @@ Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 
 ## 📞 Contacto
 
-John Doe - [@johndoe](https://twitter.com/johndoe) - john@example.com
+Francisco Javier - [@FranCiscoX01](https://github.com/FranCiscoX01) - javier030205bt@gmail.com
 
-Project Link: [https://github.com/johndoe/portfolio-react](https://github.com/johndoe/portfolio-react)
+Project Link: [https://github.com/FranCiscoX01/New_CV_liquid_glass](https://github.com/FranCiscoX01/New_CV_liquid_glass)
 
 ---
 

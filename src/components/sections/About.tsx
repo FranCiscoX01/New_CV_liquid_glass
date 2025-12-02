@@ -141,7 +141,7 @@ const About = () => {
                   <div className="aspect-square rounded-2xl overflow-hidden border border-gray-200 shadow-2xl">
                     <img
                       src="./assets/img/profile.png"
-                      alt="John Doe"
+                      alt="Francisco Javier"
                       className="w-full h-full object-cover"
                     />
                   </div>
