@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://franciscox01.github.io/New_CV_liquid_glass/",
   "scripts": {
     "predeploy": "npm run build",
     "dev": "vite",
