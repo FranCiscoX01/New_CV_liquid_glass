@@ -49,7 +49,7 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="./assets/FranciscoJPerezCruz.pdf" download="Curriculum-Francisco Javier Perez Cruz.pdf"
+              href="./public/FranciscoJPerezCruz.pdf" download="Curriculum-Francisco Javier Perez Cruz.pdf"
               className="flex items-center gap-2 px-5 py-2.5 bg-black text-white rounded-full hover:bg-gray-800 transition-all hover:scale-105 shadow-lg shadow-black/20"
             >
               <Download size={18} />

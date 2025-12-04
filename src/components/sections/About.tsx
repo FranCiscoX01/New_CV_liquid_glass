@@ -140,7 +140,7 @@ const About = () => {
                 <div className="relative max-w-sm mx-auto">
                   <div className="aspect-square rounded-2xl overflow-hidden border border-gray-200 shadow-2xl">
                     <img
-                      src="./assets/img/profile.png"
+                      src="./public/img/profile.png"
                       alt="Francisco Javier"
                       className="w-full h-full object-cover"
                     />
@@ -164,7 +164,7 @@ const About = () => {
                 <a
                   target="_blank"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-black text-white font-semibold hover:bg-gray-800 transition-colors about-button"
-                  href="./assets/FranciscoJPerezCruz.pdf" download="Curriculum-Francisco Javier Perez Cruz.pdf"
+                  href="./public/FranciscoJPerezCruz.pdf" download="Curriculum-Francisco Javier Perez Cruz.pdf"
                 >
                   <Download size={20} />
                   Descargar CV
