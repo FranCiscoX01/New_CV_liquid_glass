@@ -4,6 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/New_CV_liquid_glass/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')
